@@ -1,5 +1,5 @@
 # Auto Resize Frame
-![Cover](./assets/Cover.pmg)
+![Cover](./assets/Cover.png)
 
 Effortlessly sync your frame heights with the content inside! Auto Resize Frame is a powerful plugin that automatically adjusts the height of selected frames based on the objects within them, streamlining the layout optimization process and improving the overall design experience.
 
