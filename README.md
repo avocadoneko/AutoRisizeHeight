@@ -3,6 +3,9 @@
 
 Effortlessly sync your frame heights with the content inside! Auto Resize Frame is a powerful plugin that automatically adjusts the height of selected frames based on the objects within them, streamlining the layout optimization process and improving the overall design experience.
 
+This is a Figma plugin. Please use the following link.<br>
+https://www.figma.com/community/plugin/1222268664029154882
+
 ## Features
 
 - Automatically resize the height of selected frames to fit the objects inside
