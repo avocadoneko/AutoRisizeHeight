@@ -6,7 +6,7 @@ function resizeFrameHeight(frame) {
   });
 
   const newHeight = maxY;
-  frame.resize(frame.width, newHeight);
+  frame.resizeWithoutConstraints(frame.width, newHeight);
 }
 
 function main() {
