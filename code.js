@@ -1,27 +1,27 @@
-function resizeFrameHeight(frame) {
+function resizeNodeHeight(node) {
   let maxY = 0;
 
-  frame.children.forEach((child) => {
+  node.children.forEach((child) => {
     maxY = Math.max(maxY, child.y + child.height);
   });
 
   const newHeight = maxY;
-  frame.resizeWithoutConstraints(frame.width, newHeight);
+  node.resizeWithoutConstraints(node.width, newHeight);
 }
 
 function main() {
   const nodes = figma.currentPage.selection;
 
   if (nodes.length === 0) {
-    figma.notify('No frame selected');
+    figma.notify('No frame or component or instance selected');
     return;
   }
 
   nodes.forEach((node) => {
-    if (node.type === 'FRAME') {
-      resizeFrameHeight(node);
+    if (node.type === 'FRAME' || node.type === 'COMPONENT' || node.type === 'INSTANCE') {
+      resizeNodeHeight(node);
     } else {
-      figma.notify('Selected item is not a frame');
+      figma.notify('Selected item is not or component or instance');
     }
   });
 }
