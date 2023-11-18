@@ -8,13 +8,13 @@ https://www.figma.com/community/plugin/1222268664029154882
 
 ## Features
 
-- Automatically resize the height of selected frames to fit the objects inside
+- Automatically resize the height of selected frames, components or instances to fit the objects inside
 - Keep the top edge of the frame fixed while resizing
 - Display an error message if no frames are selected
 
 ## How to use
 
-1. Select the frames you want to resize
+1. Select the frames　(or components or instances) you want to resize
 2. Activate the Auto Resize Frame plugin
 3. If no frames are selected, a brief error message stating "Please select at least one Frame" will appear at the bottom center of the Figma app screen
 
